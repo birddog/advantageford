@@ -594,3 +594,17 @@ ul.accessoriesWrap li .pleft{padding:10px 30px 20px 10px;}
 #site-content .ribbon{background:url(/wp-content/uploads/collision-ribbon.png) scroll 0 0 no-repeat transparent;width:384px;height:188px;position:absolute;right:-13px;top:-10px;}
 #site-content .collisionform{display:none;position:absolute;width:400px;}
 .close{position:absolute;right:-10px;top:-5px;cursor:pointer;cursor:hand;display:block;height:25px;width:25px;overflow:hidden;background-image:url(/wp-content/uploads/2010/03/vidClose.png);outline:0;z-index:225;}
+
+/**********************************************/
+/* Lightbox
+/**********************************************/
+#lightbox{background-color:#eee;padding:10px;border-bottom:2px solid #666;border-right:2px solid #666;border-radius:7px;-webkit-border-radius:7px;-moz-border-radius:7px;}
+#lightboxDetails,
+#lightboxDetails a{font-size:0.8em;padding-top:0.4em;color:black;}
+#lightboxCaption{float:left;}
+#keyboardMsg{float:right;}
+#closeButton{top:5px;right:5px;}
+#lightbox img{border:none;clear:both;}
+#overlay img{border:none;}
+#overlay{background-image:url(/wp-content/themes/dt-bird-dog/javascripts/lightbox/overlay.png);}
+* html #overlay{background-color:#333;back\ground-color:transparent;background-image:url(/wp-content/themes/dt-bird-dog/javascripts/lightbox/blank.gif);filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/wp-content/themes/dt-bird-dog/javascripts/lightbox/overlay.png",sizingMethod="scale");}

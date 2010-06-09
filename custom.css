@@ -418,6 +418,7 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 .collisionCenter {width:390px;}
 .tradein, .tireRequest, 
 .partsRequest, .serviceAppointment{width:768px;}
+.staffEmail {width:345px;}
 
 /* default style */
 .form {
@@ -689,7 +690,7 @@ body.page-id-206 #site-content > .grid_12 > #post-206{padding:0 0 0 10px;}
 .contactTitle td:first-child{color:#005b7f;}
 td.emailRight{text-align:right !important;padding-right:5px;}
 .contactTitle{height:30px;}
-#emailWindow{display:none;position:absolute;z-index:500;border:solid 1px black;background:white;width:360px;height:340px;padding:10px;}
+#emailWindow{display:none;position:absolute;z-index:500;}
 #emailWindow .staff-name{display:none;}
 #emailWindow .staff-email{display:none;}
 #emailWindow .button{float:left;}

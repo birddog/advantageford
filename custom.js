@@ -150,11 +150,14 @@ jQuery(function($) {
     });
   }
 
-  $('#emailWindow #close-window').click(function(){
+  $('#emailWindow .close').click(function(){
     $('body #jquery-overlay').remove();
     $('#emailWindow').hide();
   });
-
+  
+  $(".close").click(function() {
+    $(this).parent().hide();
+  });
   /***
    * New Vehicle flyout slider
   */
@@ -219,9 +222,7 @@ jQuery(function($) {
     }
   });
 
-  $(".close").click(function() {
-    $(this).parent().hide();
-  });
+
 
   /* quick find test drive */
   $(".frm-btn-new-test-drive").click(function(){

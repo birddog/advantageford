@@ -710,14 +710,37 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 **************************************/
 #post-3166 .staff{padding-bottom:20px;}
 .staff{width:720px;}
-.staff .person{float:left;width:230px;height:300px;font:normal 11px arial;color:#999;background:url(http://www.woodridgeford.com/wp-content/uploads/2010/03/bioBg2.jpg) no-repeat;margin:5px;}
+.staff .person{
+	position:relative;
+	float:left;
+	width:230px;
+	font:normal 11px arial;
+	color:#999;
+	background:url(http://www.woodridgeford.com/wp-content/uploads/2010/03/bioBg2.jpg) no-repeat;
+	margin:5px 5px 30px;
+}
 .staff .person .photo{float:left;margin-right:10px;padding:0;}
 .staff .person .name{font-size:14px;}
 .staff .person .title{font-size:11px;}
 .staff .person .phone{font-size:13px;color:#005b7f;}
 .staff .person .email{display:block;padding:15px 0;}
 .staff .person .toggle{display:block;}
-.staff .person .bio-text{display:none;clear:both;font-size:9px;color:#005b7f;background:url(http://www.woodridgeford.com/wp-content/uploads/2010/03/bioBg.jpg) no-repeat;margin-top:18px;padding-top:4px;}
+.staff .person .bio-text{
+	display:none;
+	position:absolute;
+	font-size:11px;
+	color:#999;
+	background-color:#fff;
+	z-index:900;
+	padding:5px;
+	width:200px;
+	box-shadow: 2px 2px 2px #222;
+	-moz-box-shadow: 2px 2px 2px #222;
+	-webkit-box-shadow: 2px 2px 2px #222;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #555;
+}
 .mmf-response-output.mmf-mail-sent-ng,
 .mmf-response-output.mmf-mail-sent-ok{background:#090;color:white;}
 #boxBio{width:720px;}

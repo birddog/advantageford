@@ -785,7 +785,7 @@ ul.accessoriesWrap li .pleft{padding:10px 30px 20px 10px;}
 .bird_dog .listings .vehicles a .vehicle-desc,
 .bird_dog .listings .vehicles a .price-details .price,
 .bird_dog .listings .vehicles a .price-details .was,
-.bird_dog .listings .vehicles a .price-details .now{color:#005B7F!important;}
+.bird_dog .listings .vehicles a .price-details .now{color:#005B7F!important;font-size:12px;}
 .bird_dog .listings .search .grad.toggle{height:23px;}
 .bird_dog .detail .vehicle-info .vehicle-buttons a{display:block;float:left;}
 .bird_dog .detail .vehicle-desc{font-size:14px;}
@@ -800,6 +800,7 @@ ul.accessoriesWrap li .pleft{padding:10px 30px 20px 10px;}
 .bird_dog .listings .search .quick-combo-search .combo .options a:hover{color:#005b7f;}
 .bird_dog .detail .thumbnails .next{background:url(/wp-content/uploads/advantage-thumbnails-end.jpg) no-repeat scroll 0 0 transparent!important;}
 .bird_dog .detail .thumbnails .prev{background:url(/wp-content/uploads/advantage-thumbnails-begin.jpg) no-repeat scroll 0 0 transparent!important;}
+.listings .search .go-button {display:none;}
 
 /**********************************************/
 /* Service Contract

@@ -800,9 +800,19 @@ ul.accessoriesWrap li .pleft{padding:10px 30px 20px 10px;}
 .bird_dog .listings .search .quick-combo-search .combo .options a:hover{color:#005b7f;}
 .bird_dog .detail .thumbnails .next{background:url(/wp-content/uploads/advantage-thumbnails-end.jpg) no-repeat scroll 0 0 transparent!important;}
 .bird_dog .detail .thumbnails .prev{background:url(/wp-content/uploads/advantage-thumbnails-begin.jpg) no-repeat scroll 0 0 transparent!important;}
-.listings .search .go-button {display:none;}
-.listings .search .advanced .search-sliders .go-button {display:inline-block;}
+.listings .search .go-button {
+	display:none;
+	background-image:url(/wp-content/uploads/GoButton.png);
+	background-color:#2DB34A;
+	border:none;
+	width:23px;
+	height:21px;
+	text-indent:-1000em;
+	cursor: pointer; /* hand-shaped cursor */
+	cursor: hand; /* for IE 5.x */
 
+}
+.listings .search .advanced .search-sliders .go-button {display:inline-block;}
 /**********************************************/
 /* Service Contract
 /**********************************************/

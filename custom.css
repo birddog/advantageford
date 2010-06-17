@@ -801,6 +801,7 @@ ul.accessoriesWrap li .pleft{padding:10px 30px 20px 10px;}
 .bird_dog .detail .thumbnails .next{background:url(/wp-content/uploads/advantage-thumbnails-end.jpg) no-repeat scroll 0 0 transparent!important;}
 .bird_dog .detail .thumbnails .prev{background:url(/wp-content/uploads/advantage-thumbnails-begin.jpg) no-repeat scroll 0 0 transparent!important;}
 .listings .search .go-button {display:none;}
+.listings .search .advanced .search-sliders .go-button {display:inline-block;}
 
 /**********************************************/
 /* Service Contract

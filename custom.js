@@ -616,6 +616,7 @@ jQuery(function($) {
     $('.bird_dog .detail .photos .photo').attr('rel', 'lightbox');
   }
 
+
   /* Ford Explorer 2011 feature gallery */
   if ($('#explorer2011').length) {
 
@@ -627,8 +628,7 @@ jQuery(function($) {
     var parentMenuIndex = 1;
 
     // Bind actions to primay menu item
-    primaryMenu.bind('click',
-    function() {
+    primaryMenu.bind('click', function() {
       parentMenuIndex = primaryMenu.index(this) + 1;
 
       // swap to correct gallery
@@ -654,8 +654,7 @@ jQuery(function($) {
       return false;
     });
 
-    subMenu.bind('click',
-    function() {
+    subMenu.bind('click', function() {
       var subIndex = $(this).parent().find('li').index($(this)) + 1;
 
       $('#gallery.active').removeClass('active').hide();
@@ -675,8 +674,7 @@ jQuery(function($) {
       return false;
     })
 
-    thumbs.bind('click',
-    function() {
+    thumbs.bind('click', function() {
       var src = $(this).attr('src');
       var splitSrc = src.split('/');
       var medSrc = splitSrc[0] + '/' + splitSrc[1] + '/' + splitSrc[2] + '/med/' + splitSrc[4];

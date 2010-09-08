@@ -122,7 +122,10 @@ body.page-parent #home-content{}
 /**************************************
 * Footer
 **************************************/
-#footer-bottom {}
+#footer-bottom {
+	border-top:1px solid #ccc;
+	background:url(/wp-content/uploads/footer-bottom-background.gif) repeat 0 top transparent;
+}
 #footer-bottom a{
 	color:#555;
 	font-weight:bold;
@@ -130,24 +133,17 @@ body.page-parent #home-content{}
 #footer-bottom a:hover{color:#005b7f;}
 #footer-bottom h5 a {
 	color:#005b7f;
-	font-size:14px;
 }
 #footer-bottom .footer-row {
 	background:url(/wp-content/uploads/footer-bottom-background.gif) repeat-x 0 bottom #fff;	
-	height:177px;
-	border:1px solid #ccc;
+	height:170px;
 	overflow:hidden;
+	margin:0 auto;
+	width:960px;
 }
 #footer-bottom .footer-row div {margin:0 0 0 10px;padding:10px 0 10px 10px;height:157px;border-left:1px solid #ccc;}
 #footer-bottom .footer-row div.alpha {border:none;}
 #footer-bottom .footer-row div.grid_3 {width:210px;}
-#footer-bottom .footer-row div .right {float:right;}
-#footer-bottom .footer-row div ul.last {
-	width:120px;
-}
-#footer-bottom .footer-row div.qm ul.last {
-	width:170px;
-}
 #footer-bottom ul {
 	float:left;
 	padding:0 0 0 1.5em;
@@ -163,10 +159,10 @@ body.page-parent #home-content{}
 	border-top:1px solid #ccc;	
 }
 #footer-bottom #dealership-links {
-		border-top:1px solid #ccc;
-		text-align:center;
-		padding:15px 0;
-		font-size:12px;
+	border-top:1px solid #ccc;
+	text-align:center;
+	padding:15px 0;
+	font-size:12px;
 }
 
 /**************************************
@@ -371,7 +367,7 @@ hr.blue{border-bottom:1px solid #005b7f;}
 /**************************************
 * News Ticker
 **************************************/
-#news-ticker{background:white;height:140px;border:solid 1px #aaa;-webkit-border-top-left-radius:7px;-moz-border-radius:7px 0 0 0;}
+#news-ticker{background:white;height:140px;border:solid 1px #aaa;border-top-right-radius:7px;-moz-border-radius-topright:7px;-webkit-border-top-right-radius:7px;border-top-left-radius:7px;-moz-border-radius-topleft:7px;-webkit-border-top-left-radius:7px;}
 #news-ticker .scrollable{position:relative;overflow:hidden;height:140px;padding:0;}
 #news-ticker .scrollable .items{width:30000em;position:absolute;text-align:center;}
 #news-ticker .scrollable .item{float:left;margin-left:7px;text-align:center;}

@@ -14,7 +14,7 @@
         <div style="clear:both"></div>
       </div>
     </div>
-    <div id="breakout-footer" class="container_12">
+    <div id="breakout-footer">
       <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("breakout-footer") ) : ?><?php endif; ?>
     </div>
     <!-- BEGIN: SeeVolution --><img width=0 height=0 src="https://svlu.net/pixel.aspx"/><script type="text/javascript" src="https://svlu.net/JInitScript.js"></script><!-- END: SeeVolution  -->

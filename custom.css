@@ -70,31 +70,54 @@ body.page-parent #home-content{}
 /**************************************
 * Menubar
 **************************************/
-#menubar{width:960px;height:34px;padding-left:0;position:relative;z-index:50;}
-#menubar .nav li{}
-#menubar .nav li a{display:block;background-image:url(/wp-content/uploads/menubar-nav-bg.png);padding:6px 0 0 7px;height:28px;font-size:12px;}
-#menubar .nav li a:hover,
-#menubar .nav li a .current-page{color:#39C;}
-#menubar .nav li.page-item-149 a{background-position:left 0;width:65px;padding-left:11px;}
-#menubar .nav li.page-item-151 a{background-position:-182px 0;width:120px;}
-#menubar .nav li.page-item-153 a{background-position:-182px 0;width:148px;}
-#menubar .nav li.page-item-155 a{background-position:-182px 0;width:110px}
-#menubar .nav li.page-item-157 a{background-position:-182px 0;width:110px;}
-#menubar .nav li.page-item-159 a{background-position:-182px 0;width:110px}
-#menubar .nav li.page-item-3008 a{background-position:-182px 0;width:120px;}
-#menubar .nav li.page-item-165 a{
-	width:110px;
-	background-position:right top;
-	padding:6px 0 0 14px;	
+#menubar{width:960px;height:34px;margin-bottom:5px;padding-left:0;position:relative;z-index:500;}
+#menubar #menu-navigation > li {float:left;}
+#menubar #menu-navigation > li > a{display:block; color:#fff; background-image:url(/wp-content/uploads/menubar-nav-bg.png); padding:6px 0 0 7px; height:28px; line-height:20px; font-size:11px; text-transform:uppercase}
+#menubar #menu-item-3644 a{background-position:left 0;width:65px;padding-left:11px;}
+#menubar #menu-item-3646 a{background-position:-182px 0;width:120px;}
+#menubar #menu-item-3647 a{background-position:-182px 0;width:148px;}
+#menubar #menu-item-3648 a{background-position:-182px 0;width:110px;}
+#menubar #menu-item-3649 a{background-position:-182px 0;width:110px;}
+#menubar #menu-item-3650 a{background-position:-182px 0;width:110px;}
+#menubar #menu-item-3651 a{background-position:-182px 0;width:120px;}
+#menubar #menu-item-3652 a{width:110px;background-position:right top;padding:6px 0 0 14px;}
+
+#menubar #menu-navigation >li >a:hover{color:#fff; background-position:-182px bottom}
+#menubar #menu-item-3644 >a:hover{background-position:left bottom!important}
+#menubar #menu-item-3652 >a:hover{background-position:right bottom!important}
+
+#menu-navigation li a, 
+#menu-navigation li a:visited .nav li li a, 
+#menu-navigation li li a:visited, 
+#menu-navigation li li a:hover, 
+#menu-navigation li li a:active{margin:0; position:inherit; float:none}
+
+#menubar #menu-navigation li .sub-menu{
+	background-color:#222;
+	padding-bottom:5px;
+	border-left:1px solid #BABABA;
+	border-right:1px solid #BABABA;
+	border-bottom:1px solid #BABABA;
+	-moz-border-radius-bottomleft:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	-webkit-border-bottom-right-radius:8px;	
+	-moz-box-shadow:2px 2px 3px #222;
+	-webkit-box-shadow:2px 2px 3px #222;	
+	box-shadow:2px 2px 3px #222;
+
 }
-#menubar .nav li.last{float:left;width:180px;background-image:url(/wp-content/uploads/menubar-nav-bg.png);background-position:right top;height:34px;display:none;}
-/* menubar overrides */
-.nav li a,
-.nav li a:visited .nav li li a,
-.nav li li a:visited,
-.nav li li a:hover,
-.nav li li a:active{margin:0;position:inherit;float:none;}
-#menubar .nav ul li a{font:inherit;}
+#menubar #menu-navigation li .sub-menu li > .sub-menu {
+	border:1px solid #BABABA!important;
+}
+#menubar #menu-navigation li .sub-menu li > .sub-menu li:first {
+	-webkit-background-clip:padding-box;
+	-moz-background-clip:padding-box;	
+}
+#menubar #menu-navigation li.menu-item-3863 .sub-menu a{width:auto}
+#menubar #menu-navigation li .sub-menu >li{float:none}
+#menubar #menu-navigation li .sub-menu >li a{background:none 0 0 #222; font-size:11px; color:#fff;padding:3px 0 3px 7px}
+#menubar #menu-navigation li .sub-menu >li a:hover{background-color:#e21c22; color:#fff}
 
 /**************************************
 * Footer

@@ -158,33 +158,6 @@ jQuery(function($) {
   $(".close").click(function() {
     $(this).parent().hide();
   });
-  /***
-   * New Vehicle flyout slider
-  */
-  if ($('.page-item-151').length) {
-    if (!$('#showcase-flyout').length && $('.dt-showcase').length) {
-      $('#slideout .dt-showcase').clone().insertAfter('#submenu')
-        .attr('id','showcase-flyout')
-        .attr('class','showcase-flyout')
-        .center()
-        .css({top:'116px'})
-        .hide();
-      $('#showcase-flyout .showcase-pane').wrapInner('<div class="items"/>');
-      $('#showcase-flyout .showcase-pane').prepend('<div class="showcase-prev"></div>');
-      $('#showcase-flyout .showcase-pane').append('<div class="showcase-next"></div>');
-      $('#showcase-flyout .showcase-pane').scrollable({speed:100, size:5, clickable:false, items:'.items', next:'.showcase-next', prev:'.showcase-prev', item:'.vehicle'});
-      $('#showcase-flyout .showcase-pane .vehicle').hover(
-        function(){ $(this).children('.trims').show(); },
-        function(){ $(this).children('.trims').hide(); }
-      );
-      $('#showcase-flyout .showcase-tabs').tabs('#showcase-flyout > .showcase-pane');
-    }
-    $('.page-item-151').hover(function(){
-      $('#showcase-flyout').show();
-    });
-    $('#menubar .page_item').hover(function(){if($(this).attr('class')!='page_item page-item-151')$('#showcase-flyout').hide();});
-    $('#showcase-flyout').hover(function(){}, function(){$('#showcase-flyout').hide();});
-  }
 
 
   //========================
